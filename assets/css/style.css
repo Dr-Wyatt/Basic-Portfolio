@@ -5,7 +5,7 @@ body {
 header {
     background-color: #ffffff;
     border-bottom: 5px;
-    border-color: #cccccc;
+    border-color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .container {
@@ -70,5 +70,23 @@ main {
 img {
     display: flex;
     margin: 0px 10px 10px 30px;
+}
+footer {
+    display: flex;
+    height: 75px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin: auto;
+    background-color: #666666;
+    border-top: 5px;
+    border-color: #4aaaa5;
+}
+.copyright {
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
 }
 
